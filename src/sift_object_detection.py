@@ -153,7 +153,8 @@ if __name__ == "__main__":
         print("Image processing completed. Output saved to:", output_path)
         
         # Video processing
-        video_path = "input_video.mp4"
+        video_path = "images/car-detection.mp4"
+        query_img_path = "images/vid_query.png"
         output_video_path = "output_video.mp4"
         detect_object_in_video(query_img_path, video_path, output_video_path)
         print("Video processing completed. Output saved to:", output_video_path)
